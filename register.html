@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/register.css" />
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<script type="text/javascript" src="js/register.js"></script>
+	</head>
+	<body>
+		<div class="box">
+		<h1>注册</h1>
+		            <form name="myForm" action="login.html" onsubmit="return validateForm();">
+		                <ul>  
+		                    <li>Email：<input type="text" name="email" id="userEmail"
+		                            placeholder="请输入邮箱......"></li>
+							<li>密&nbsp;&nbsp;码：<input type="password" name="password"
+							        id="password" maxlength="10" placeholder="6-10位数字&字母组合"onkeyup="checkPwd(this)"><span id="l2"></span></li>
+		                   
+							<div class="btn-box">
+							<input type="submit" value="免费注册" class="btn-box">
+							</div>
+		                    <div><input type="checkbox" checked="checked"> 我同意注册条款和会员加入标准</div>
+		                    <div class="loading"><a href="login.html"> 已有账户，立即登录</a></div>
+		                </ul>
+		            </form>
+					</div>
+	</body>
+</html>

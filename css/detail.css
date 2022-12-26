@@ -1,0 +1,166 @@
+.wrap{
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.product-intro{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.preview-wrap{
+	width: 352px;
+	height: 500px;
+	background-color: white;
+	padding-bottom: 15px;
+	float: left;
+}
+.itemInfo-wrap{
+	width: 590px;
+	height: 700px;
+	margin-left: 30px;
+	margin-right: 24px;
+	float: left;
+}
+.itemInfo-wrap img{
+	width: 100%;
+}
+.track{
+	width: 210px;
+	height: 600px;
+	float: left;
+}
+.track img{
+	width: 100%;
+}
+.elevator{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: 615px;
+	width: 58px;
+	height: 252px;
+}
+.elevator a{
+	display: block;
+	width: 58px;
+	height: 38px;
+	line-height: 19px;
+	font-size: 14px;
+	color: #333333;
+	padding: 10px 0;
+	text-align: center;
+	transition: color .2s ease; 
+	background-color: #FFF;
+}
+
+.elevator-fix{
+	position: fixed;
+	top: 75px;
+	animation: eleShow 0.5s ease;
+}
+
+.main-img{
+	position: relative;
+	width: 350px;
+	height: 350px;
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.spec-list{
+	position: relative;
+	width: 352px;
+	height: 54px;
+	margin-bottom: 18px;
+	background-color: white;
+}
+.main-img img{
+	width: 350px;
+	height: 350px;
+}
+
+.prev,.next{
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	width: 22px;
+	height: 32px;
+	cursor: pointer;
+	background-color: white;
+	background: url(../img/__sprite.png)no-repeat;
+	
+}
+
+.prev{
+	left: 0;
+	background-position: 0 -54px;
+	
+}
+.next{
+	right: 0;
+	background-position: -78px 0;
+}
+
+.spec-items{
+	position: relative;
+	width: 290px;
+	height: 54px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+}
+.spec-items ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 406px;
+	height: 54px;
+	background-color: white;
+	transition: all 0.5s;
+}
+.spec-items ul li{
+	width: 54px;
+	height: 54px;
+	margin: 0 2px;
+	float: left;
+}
+.spec-items ul li img{
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+}
+
+.spec-items ul .img-hover img{
+	border: 2px solid red;
+}
+
+/* 放大镜 ========================================================================================*/
+.zoom-pup{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 236px;
+	height: 236px;
+	background-color: gold;
+	opacity: 0.5;
+}
+.zoom-div{
+	position: relative;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 351px;
+	width: 540px;
+	height: 540px;
+	overflow: hidden;
+	
+}
+.zoom-div img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 800px;
+}

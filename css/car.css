@@ -1,0 +1,117 @@
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #444444;
+}
+body{
+	background-color: #F4F4F4;
+}
+
+.header{
+	margin: 8px;
+	background-color: white;
+}
+
+.shop_icon,.wangwang_icon,.promotion_icons span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	/* background-color: #0077AA; */
+}
+.promotion_icons span{
+	margin-right: 4px;
+}
+
+.items{
+	border: 1px solid #ebe9e9;
+	background-color: white;
+}
+.item{
+	display: flex;
+	margin: 8px;
+}
+
+.item_img{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.item_img img{
+	width: 100%;
+}
+
+.item_name{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sku,.price,.num_control,.item_price_total,.operation{
+	margin-left: 18px;
+}
+.num{
+	width: 18px;
+}
+.num_control{
+	display: flex;
+	align-items: baseline;
+}
+
+.num_minus,.num_plus{
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+	background-color: #EBE9E9;
+	cursor: pointer;
+	
+}
+
+.checkout{
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.price_1{
+	text-decoration: line-through;
+	color: gray;
+}
+
+.checked_num,.total_price{
+	font-size: large;
+	color: red;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.elevator{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: 615px;
+	width: 58px;
+	height: 252px;
+}
+.elevator a{
+	display: block;
+	width: 58px;
+	height: 38px;
+	line-height: 19px;
+	font-size: 14px;
+	color: #333333;
+	padding: 10px 0;
+	text-align: center;
+	transition: color .2s ease; 
+	background-color: #FFF;
+}
+
+.elevator-fix{
+	position: fixed;
+	top: 75px;
+	animation: eleShow 0.5s ease;
+}
